@@ -3,9 +3,12 @@ body {
 }
 .n {
   color: orange;
+  margin-bottom: 200px;
 }
 section {
   display: flex;
+  background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/112513-pink-and-yellow-blurred-background-vector.jpg?w=800&q=95");
+  background-repeat: no-repeat;
 }
 .half-width {
   width: 50%;
@@ -16,12 +19,20 @@ section {
 }
 .link-button {
   text-decoration: blanchedalmond;
+  margin-bottom: 100px;
   background-image: linear-gradient(orange, tomato);
   background-color: orange;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: black;
-  font-weight: 700;
+  font-weight: 900;
 }
 .top-banner {
-  background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+}
+.dream-big {
+  /* Background pattern from Toptal Subtle Patterns */
+
+  height: 400px;
+  width: 50%;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
